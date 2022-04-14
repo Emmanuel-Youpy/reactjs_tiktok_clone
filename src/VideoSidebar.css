@@ -1,0 +1,50 @@
+.videoSidebar {
+  position: absolute;
+  top: 300px;
+  right: 10px;
+  color: white;
+}
+
+.videoSidebar_button {
+  padding: 20px;
+  text-align: center;
+}
+
+.videoSidebar_button > .MuiSvgIcon-root {
+  font-size: large;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 650px) {
+  .videoSidebar {
+    top: 200px;
+  }
+  .videoSidebar_button > .MuiSvgIcon-root {
+    font-size: large;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .videoSidebar {
+    top: 420px;
+  }
+  .videoSidebar_button > .MuiSvgIcon-root {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .videoSidebar {
+    top: 700px;
+  }
+
+  .videoSidebar_button > .MuiSvgIcon-root {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .videoSidebar {
+    top: 200px;
+  }
+}
